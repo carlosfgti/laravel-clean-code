@@ -8,6 +8,14 @@ use App\Models\Post;
 
 class PostController extends Controller
 {
+    private $post;
+
+    public function __construct(Post $post)
+    {
+        $this->post = $post;
+    }
+
+
     public function index()
     {
     	return view('posts.index');
