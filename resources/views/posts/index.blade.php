@@ -16,6 +16,8 @@
         	@empty
         	@endforelse
         </table>
+
+        {!! $posts->links() !!}
     </div>
 </div>
 @endsection
