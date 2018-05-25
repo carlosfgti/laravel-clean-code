@@ -3,6 +3,8 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+        <h1>Posts</h1>
+
         <table class="table">
         	<tr>
         		<th width="50">ID</th>
