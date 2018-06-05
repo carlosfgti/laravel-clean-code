@@ -11,5 +11,8 @@
 		<div class="container">
 			@yield('content')
 		</div>
+
+		<!--dynamic scripts-->
+		@stacks('scripts')
 	</body>
 </html>
